@@ -1,0 +1,46 @@
+[Motronic]
+address=16
+baudRate=8800
+
+Input.1=MAF Sensor:;((n*500)/255);#.## Volts
+Input.2=Battery:;(n*682)/100;##.## Volts
+Input.3=NTC 1:
+Input.4=NTC 2:
+Input.6=O2 Sensor:
+Input.7=FQS:;((n*500)/255);#.## Volts
+Input.8=MAP Sensor:
+
+Switch.1=WOT:
+Switch.2=Idle:
+
+Actual Value.Intake Air Temp (°C)=0x37;((((n*115)/100)-26)-32)*5/9;###°
+Actual Value.Cylinder Head Temp (°C)=0x38;((((n*115)/100)-26)-32)*5/9;###°
+Actual Value.AFM Voltage=0x45;((n*500)/255);#.## Volts
+Actual Value.rpm=0x3a;n*40
+Actual Value.Injector Time=0x42;n*5;###.## ms
+Actual Value.Ignition Advance=0x5d;(((n-0x68)*2075)/255)*-1;###.#°
+Actual Value.Adapted IAC trim=0x7e4b
+
+
+
+[ABS/Traction Control]
+address=61
+baudRate=4800
+
+[SRS Air Bag]
+address=87
+baudRate=9600
+
+[Climate Control]
+address=81
+baudRate=4800
+
+[TIP]
+address=41
+baudRate=4800
+
+
+
+
+
+

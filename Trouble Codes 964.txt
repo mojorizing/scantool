@@ -1,0 +1,109 @@
+[Trouble Code Descriptions]
+
+[S00]
+;Anti-lock/traction control trouble codes
+11=Lateral lock valve-No feedback signal from valve to control unit
+12=Lateral acceleration sensor short-circuit/break in circuit
+13=Lateral acceleration sensor-implausible signal
+14=Lateral lock-deviation in regulating values
+15=Control unit defective
+21=Front left speed sensor
+22=Front right speed sensor
+23=Rear right speed sensor
+24=Rear left speed sensor
+31=Front left ABS valve
+32=Front right ABS valve
+33=Rear axle ABS valve
+34=Valve relay
+35=Return pump
+41=Front-rear differential lock valve
+42=Front-rear acceleration sensor short-circuit/break in circuit
+43=Longitudinal acceleration sensor-implausible signal
+44=Front-rear differential lock control diviations
+45=Full differential locking button
+
+
+[H00]
+;Climate control trouble codes
+11=Inside temperature sensor
+12=Left mixing chamber temperature sensor
+13=Right mixing chamber temperature sensor
+14=Evaporator temperature sensor
+15=Rear fan temperature sensor
+21=Oil cooler temperature sensor
+22=Defrost flap motor
+23=Footwell flap motor
+24=Fresh air flap motor
+31=Left mixing flap motor
+32=Right mixing flap motor
+33=Left heater blower motor
+34=Right heater blower motor
+41=Condenser blower motor
+42=Oil cooler blower motor
+43=Rear blower motor speed 1
+46=Rear blower motor speed 1
+44=Rear blower motor speed 2
+45=Inside sensor blower motor
+47=Rear blower motor speed 2
+
+
+[M00]
+;Motronic trouble codes
+11=DME control unit power supply too high/low
+12=Idle speed contact ground short
+13=Full load contact ground short
+14=Engine temperature sensor
+15=Idle speed contact break
+21=Air flow sensor
+22=Idle speed control
+23=Oxygen regulation at stop (intake air leak?)
+24=Oxygen sensor
+25=Air temperature sensor
+31=Knock sensor 1
+32=Knock sensor 2
+33=Knock computer
+34=Hall signal
+41=Control unit faulty :(
+43=Tank venting valve
+44=Resonance plate
+45=Check engine warning lamp
+51=Injection valve 1
+52=Injection valve 2
+53=Injection valve 3
+54=Injection valve 4
+55=Injection valve 5
+56=Injection valve 6
+
+[G00]
+;Tiptronic trouble codes
+11 – Signal Implausible
+13 – Voltage for drive links failed
+14 – Voltage for sensors failed
+21 – RPM signal from DME failed
+22 – Load signal from DME failed 
+23 – Throttle Pot. Failed
+24 – Change of ignition timing
+31 – Solenoid valve 1 failed
+32 – Solenoid valve 2 failed
+33 – Solenoid valve torque converter clutch failed
+34 – Pressure regulator failed
+35 – Selector lever switch/transmission failed
+36 – Transmission speed sensor failed
+37 – Transmission temp. sensor failed
+38 – Selector lever switch/ transmission partial failure
+42 – Transmission control unit failure
+43 – Transmission control unit failure
+44 – Transmission control unit failure
+45 – Downshift fault in rev limiter
+46 – Downshift fault in rev limiter
+51 – Manual program switch failed
+52 – Tip. Switch up and down failed
+53 – Kick down switch failed
+54 – Transverse accel. Sensor failed
+55 – Speed signal 1 from ABS control unit failed
+56 – Input to combination instrument failed
+57 – Transmission oil cooler blower relay failed
+59 – Switch R-position failed
+60 – Reverse light relay failed 
+
+
