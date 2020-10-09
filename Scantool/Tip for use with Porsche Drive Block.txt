@@ -1,0 +1,29 @@
+From the Rennlist forum:
+
+> I did some different setups to try connection to the motronic. And suddenly scantool was connected to it without the workaround (switch installed to the immobilizer unit). So I retried to connect several times and here is my way to connect to the motronic in my '95 cab with remote and immobilizer:
+> 
+> Setup: 
+> - Car closed and locked. 
+> - Laptop inside and connected to OBD. Switches to:
+> - SW1/1 = DME/CCU/ABS/ALARM (not SRS)
+> - SW2/1 = DME (Motronic)
+> - Scantool4 not running
+> 
+> 1. Press remote control to unlock the door.
+> 2. Open door
+> 3. Put the key into the ignition
+> 4. Ignition on, but do not start the engine 
+> 5. Run scantool4.
+> 6. Scantool4 tries to connect several times but fails.
+> 7. Close scantool4
+> 8. Run scantool4 again
+> 9. Scantool4 tries to connect several times until connection is done.
+> Scantool4 shows all data you need.
+> Note: If you switch off ignition you have to lock your car and do all 
+> this from beginning.
+> 
+> This works for me on my car.
+
+Trick found here:
+http://forums.rennlist.com/rennforums/993-forum/371155-scantool-interface-for-1995-obd1-cars-and-the-immobilizer-is-there-a-workaround.html
+
